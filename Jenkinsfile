@@ -23,7 +23,7 @@ pipeline {
 		steps {
 		   script{
               		sh """
-                		npm version patch"
+                	   npm version patch
          		"""
 			}
 		    }
