@@ -9,7 +9,7 @@ pipeline {
     stage('Clear workspace') {
       steps {
         cleanWs()
-      	}
+        	}
     	}  
     	stage('Source Checkout') {
       	steps {
